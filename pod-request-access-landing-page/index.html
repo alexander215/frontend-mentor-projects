@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Pod request access landing page</title>
-</head>
-<body>
-  Publish your podcasts everywhere.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-  Request access
-</body>
+    <title>Frontend Mentor | Pod request access landing page</title>
+  </head>
+  <body>
+    <div class="landing-page-container__background-image">
+      <div class="landing-page-container__content">
+        <img src="assets/desktop/logo.svg" alt="pod logo" class="logo" />
+        <div class="content">
+          <div class="content__header">
+            Publish your podcasts <span>everywhere.</span>
+          </div>
+          <div class="content__body">
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
+          </div>
+          <div class="content__partner-logos">
+            <img
+              src="assets/desktop/spotify.svg"
+              alt="Spotify logo"
+              id="spotify-logo"
+            />
+            <img
+              src="assets/desktop/apple-podcast.svg"
+              alt="Apple podcast logo"
+              id="apple-podcast-logo"
+            />
+            <img
+              src="assets/desktop/google-podcasts.svg"
+              alt="Google Podcasts logo"
+              id="google-podcasts-logo"
+            />
+            <img
+              src="assets/desktop/pocket-casts.svg"
+              alt="Pocket Casts logo"
+              id="pocket-casts-logo"
+            />
+          </div>
+          <div class="input-email-form">
+            <input
+              class="input-email-form__email-input"
+              type="text"
+              placeholder="Email Address"
+              label="Email address input"
+            />
+            <input
+              class="input-email-form__submit-button"
+              type="submit"
+              value="Request access"
+              label="Request access submit button"
+            />
+          </div>
+        </div>
+      </div>
+  </body>
 </html>
