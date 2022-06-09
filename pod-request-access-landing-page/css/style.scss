@@ -32,8 +32,6 @@ body {
 .landing-page-container__background-image {
   background-image: linear-gradient(rgba(18, 23, 37, 0.9),
       rgba(18, 23, 37, 0.9)), url('../assets/mobile/image-host.jpg');
-  // background-image: linear-gradient(rgba(18, 23, 37, 0.9),
-  //     rgba(18, 23, 37, 0.9)), url('../assets/desktop/logo.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -76,7 +74,6 @@ body {
   @media only screen and (min-width: 768px) {
     max-width: 635px;
     background-color: $near-black-background-color;
-    // margin-bottom: 257px;
   }
 }
 
