@@ -27,6 +27,14 @@ body {
   min-height: 100vh;
 }
 
+@media only screen and (min-width: 768px) {
+  .landing-page-container__background-image {
+    background-image: url("../assets/tablet/image-host.jpg");
+    background-size: 491px;
+    background-position: top right;
+  }
+}
+
 .landing-page-container__content {
   max-width: 375px;
   margin: 0 auto;
@@ -34,8 +42,34 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .landing-page-container__content {
+    max-width: 768px;
+    text-align: left;
+    padding: 0;
+    margin-left: 39px;
+    height: 1024px;
+    background-image: url("../assets/desktop/bg-pattern-dots.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+}
+
 .logo {
   margin-top: 62px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    max-width: 635px;
+    background-color: #121725;
+  }
 }
 
 .content__header {
@@ -50,6 +84,15 @@ body {
   color: #ffffff;
 }
 
+@media only screen and (min-width: 768px) {
+  .content__header {
+    margin-top: 152px;
+    padding-top: 93px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
 .content__body {
   margin-top: 16px;
   color: #c2cbe5;
@@ -57,9 +100,38 @@ body {
   line-height: 25px;
 }
 
+@media only screen and (min-width: 768px) {
+  .content__body {
+    margin-top: 31px;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 445px;
+  }
+}
+
+.logo-submit-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 320px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-submit-container {
+    max-width: 540px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
 .content__partner-logos {
-  margin: 33px auto 0 auto;
-  max-width: 315px;
+  margin-top: 33px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,6 +146,14 @@ body {
 .content__partner-logos img {
   max-height: 17px;
   width: auto;
+  max-height: 29px;
+}
+
+@media only screen and (min-width: 768px) {
+  .content__partner-logos {
+    margin: 64px 0 0;
+    max-width: 536px;
+  }
 }
 
 #spotify-logo {
@@ -81,9 +161,21 @@ body {
   height: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+  #spotify-logo {
+    width: 96px;
+  }
+}
+
 #apple-podcasts-logo {
   width: 45px;
   height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  #apple-podcasts-logo {
+    width: 78px;
+  }
 }
 
 #google-podcasts-logo {
@@ -91,14 +183,36 @@ body {
   height: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+  #google-podcasts-logo {
+    width: 125px;
+  }
+}
+
 #pocket-casts-logo {
   width: 77px;
   height: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+  #pocket-casts-logo {
+    width: 129px;
+  }
+}
+
 .input-email-form {
   margin-top: 48px;
   max-width: 372px;
+}
+
+@media only screen and (min-width: 768px) {
+  .input-email-form {
+    max-width: 472px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
 }
 
 .input-email-form input {
@@ -114,8 +228,40 @@ body {
   color: #ffffff;
 }
 
+.input-email-form input:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .input-email-form input {
+    height: 56px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .input-email-form .input-email-form__email-input {
+    width: 472px;
+  }
+}
+
 .input-email-form .input-email-form__submit-button {
   background-color: #54e6af;
   color: #121725;
+}
+
+.input-email-form .input-email-form__submit-button:hover {
+  background-color: #B3FFE2;
+}
+
+@media only screen and (min-width: 768px) {
+  .input-email-form .input-email-form__submit-button {
+    width: 162px;
+    height: 46px;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
