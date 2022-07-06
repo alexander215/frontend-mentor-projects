@@ -37,10 +37,24 @@ body {
   background-position: center center;
   min-height: 100vh;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     background-image: url('../assets/tablet/image-host.jpg');
     background-size: 491px;
     background-position: top right;
+  }
+  @media only screen and (min-width: 1000px) {
+    background-image: url('../assets/desktop/bg-pattern-dots.svg'), url('../assets/desktop/image-host.jpg');
+    background-size: 232px, 888px;
+    margin-top: 130px;
+    // background-position: center right, top right;
+    background-position: 100% 63.5%, 100% 0%;
+  }
+}
+
+.landing-page-container__inner-section {
+  @media only screen and (min-width: 600px) {
+    max-width: 1110px;
+    margin: 0 auto;
   }
 }
 
@@ -50,7 +64,7 @@ body {
   padding: 0 24px;
   text-align: center;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     max-width: 768px;
     text-align: left;
     padding: 0;
@@ -60,21 +74,36 @@ body {
     background-repeat: no-repeat;
     background-position: bottom left;
   }
+
+  @media only screen and (min-width: 600px) {
+    background-image: none;
+  }
 }
 
 .logo {
   margin-top: 62px;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     margin-top: 50px;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    margin-top: -23px;
   }
 }
 
 .content {
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     max-width: 635px;
     background-color: $near-black-background-color;
   }
+
+  @media only screen and (min-width: 1000px) {
+    margin-top: 80px;
+    padding: 0;
+    max-width: 732px;
+  }
+
 }
 
 .content__header {
@@ -88,11 +117,17 @@ body {
     color: $white-color;
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     margin-top: 152px;
     padding-top: 93px;
     font-size: 48px;
     line-height: 56px;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    margin-top: 0;
+    font-size: 52px;
+    line-height: 62px;
   }
 }
 
@@ -102,7 +137,7 @@ body {
   font-size: 15px;
   line-height: 25px;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     margin-top: 31px;
     font-size: 18px;
     line-height: 28px;
@@ -114,7 +149,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 320px;
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     max-width: 540px;
     flex-direction: column-reverse;
   }
@@ -131,12 +166,12 @@ body {
     max-height: 17px;
     width: auto;
 
-    @media only screen and (min-width: 768px) {}
+    @media only screen and (min-width: 600px) {}
 
     max-height: 29px;
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     margin: 64px 0 0;
     max-width: 536px;
   }
@@ -147,7 +182,7 @@ body {
   width: 56px;
   height: 100%;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     width: 96px;
   }
 }
@@ -156,7 +191,7 @@ body {
   width: 45px;
   height: 100%;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     width: 78px;
   }
 }
@@ -165,7 +200,7 @@ body {
   width: 73px;
   height: 100%;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     width: 125px;
   }
 }
@@ -174,7 +209,7 @@ body {
   width: 77px;
   height: 100%;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     width: 129px;
   }
 }
@@ -182,7 +217,7 @@ body {
 .input-email-form {
   margin-top: 48px;
   max-width: 372px;
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 600px) {
     max-width: 472px;
     display: flex;
     position: relative;
@@ -204,13 +239,13 @@ body {
       outline: none;
     }
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 600px) {
       height: 56px;
       }
   }
 
   .input-email-form__email-input {
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 600px) {
       width: 472px;
     }
 
@@ -224,7 +259,7 @@ body {
         background-color: $button-hover-color;
     }
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 600px) {
       width: 162px;
       height: 46px;
       position: absolute;

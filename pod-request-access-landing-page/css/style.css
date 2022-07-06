@@ -27,11 +27,27 @@ body {
   min-height: 100vh;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .landing-page-container__background-image {
     background-image: url("../assets/tablet/image-host.jpg");
     background-size: 491px;
     background-position: top right;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .landing-page-container__background-image {
+    background-image: url("../assets/desktop/bg-pattern-dots.svg"), url("../assets/desktop/image-host.jpg");
+    background-size: 232px, 888px;
+    margin-top: 130px;
+    background-position: 100% 63.5%, 100% 0%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .landing-page-container__inner-section {
+    max-width: 1110px;
+    margin: 0 auto;
   }
 }
 
@@ -42,7 +58,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .landing-page-container__content {
     max-width: 768px;
     text-align: left;
@@ -55,20 +71,40 @@ body {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .landing-page-container__content {
+    background-image: none;
+  }
+}
+
 .logo {
   margin-top: 62px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .logo {
     margin-top: 50px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
+  .logo {
+    margin-top: -23px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
   .content {
     max-width: 635px;
     background-color: #121725;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .content {
+    margin-top: 80px;
+    padding: 0;
+    max-width: 732px;
   }
 }
 
@@ -84,12 +120,20 @@ body {
   color: #ffffff;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .content__header {
     margin-top: 152px;
     padding-top: 93px;
     font-size: 48px;
     line-height: 56px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .content__header {
+    margin-top: 0;
+    font-size: 52px;
+    line-height: 62px;
   }
 }
 
@@ -100,7 +144,7 @@ body {
   line-height: 25px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .content__body {
     margin-top: 31px;
     font-size: 18px;
@@ -120,7 +164,7 @@ body {
   max-width: 320px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .logo-submit-container {
     max-width: 540px;
     -webkit-box-orient: vertical;
@@ -149,7 +193,7 @@ body {
   max-height: 29px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .content__partner-logos {
     margin: 64px 0 0;
     max-width: 536px;
@@ -161,7 +205,7 @@ body {
   height: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   #spotify-logo {
     width: 96px;
   }
@@ -172,7 +216,7 @@ body {
   height: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   #apple-podcasts-logo {
     width: 78px;
   }
@@ -183,7 +227,7 @@ body {
   height: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   #google-podcasts-logo {
     width: 125px;
   }
@@ -194,7 +238,7 @@ body {
   height: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   #pocket-casts-logo {
     width: 129px;
   }
@@ -205,7 +249,7 @@ body {
   max-width: 372px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .input-email-form {
     max-width: 472px;
     display: -webkit-box;
@@ -232,13 +276,13 @@ body {
   outline: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .input-email-form input {
     height: 56px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .input-email-form .input-email-form__email-input {
     width: 472px;
   }
@@ -253,7 +297,7 @@ body {
   background-color: #B3FFE2;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .input-email-form .input-email-form__submit-button {
     width: 162px;
     height: 46px;
