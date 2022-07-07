@@ -1,6 +1,6 @@
 // Fonts to include:
 // @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap");
 
 // Color Variables:
 $green-highlight-color: #54e6af;
@@ -10,6 +10,7 @@ $white-color: #ffffff;
 $blue-grey-color: #5a668a;
 $lightest-grey-color: #c2cbe5;
 $button-hover-color: #B3FFE2;
+$error-message-color: #FB3E3E;
 
 *,
 *::after,
@@ -46,7 +47,6 @@ body {
     background-image: url('../assets/desktop/bg-pattern-dots.svg'), url('../assets/desktop/image-host.jpg');
     background-size: 232px, 888px;
     margin-top: 130px;
-    // background-position: center right, top right;
     background-position: 100% 63.5%, 100% 0%;
   }
 }
@@ -103,7 +103,6 @@ body {
     padding: 0;
     max-width: 732px;
   }
-
 }
 
 .content__header {
@@ -151,8 +150,17 @@ body {
   max-width: 320px;
   @media only screen and (min-width: 600px) {
     max-width: 540px;
-    flex-direction: column-reverse;
   }
+}
+
+.logo-submit-container :nth-child(1) { order: 1};
+.logo-submit-container :nth-child(2) { order: 2};
+.logo-submit-container :nth-child(3) { order: 3}; 
+
+@media only screen and (min-width: 600px) {
+  .logo-submit-container :nth-child(1) { order: 3};
+  .logo-submit-container :nth-child(2) { order: 1};
+  .logo-submit-container :nth-child(3) { order: 2}; 
 }
 
 .content__partner-logos {
@@ -172,7 +180,7 @@ body {
   }
 
   @media only screen and (min-width: 600px) {
-    margin: 64px 0 0;
+    margin: 22px 0 0;
     max-width: 536px;
   }
 
@@ -211,6 +219,12 @@ body {
 
   @media only screen and (min-width: 600px) {
     width: 129px;
+  }
+}
+
+.input-email-form-container {
+  @media only screen and (min-width: 600px) {
+    min-height: 143px;
   }
 }
 
@@ -270,4 +284,10 @@ body {
 
     }
   }
+}
+
+.input-email-form__error-message {
+  color: $error-message-color;
+  padding: 8px 0 0 32px;
+  font-size: 12px;
 }

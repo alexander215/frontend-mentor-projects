@@ -50,23 +50,28 @@
                   id="pocket-casts-logo"
                 />
               </div>
-              <div class="input-email-form">
-                <input
+              <div class="input-email-form-container">
+                <div class="input-email-form">
+                  <input
                   class="input-email-form__email-input"
                   type="text"
                   placeholder="Email Address"
-                  label="Email address input"
-                />
-                <input
-                  class="input-email-form__submit-button"
-                  type="submit"
-                  value="Request access"
-                  label="Request access submit button"
-                />
+                    label="Email address input"
+                  />
+                  <input
+                    class="input-email-form__submit-button"
+                    id="input-email-form__submit-button"
+                    type="submit"
+                    value="Request access"
+                    label="Request access submit button"
+                  />
+                </div>
+                <div class="input-email-form__error-message"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <script src="script.js"></script>
   </body>
 </html>
