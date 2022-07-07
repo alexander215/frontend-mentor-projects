@@ -291,3 +291,22 @@ body {
   padding: 8px 0 0 32px;
   font-size: 12px;
 }
+
+.attribution {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 2rem;
+
+  a {
+      color: darkgray;
+    }
+  
+  p {
+    padding-bottom: 8px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-top: 150px;
+  }
+}
