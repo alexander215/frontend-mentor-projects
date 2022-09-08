@@ -35,8 +35,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-using-scss-dC3L6Dejzu](https://www.frontendmentor.io/solutions/responsive-landing-page-using-scss-dC3L6Dejzu)
+- Live Site URL: [https://frontend-mentor-projects-coral.vercel.app/pod-request-access-landing-page/index.html](https://frontend-mentor-projects-coral.vercel.app/pod-request-access-landing-page/index.html)
+- GitHub Repo URL: [https://github.com/alexander215/frontend-mentor-projects/tree/master/pod-request-access-landing-page](https://github.com/alexander215/frontend-mentor-projects/tree/master/pod-request-access-landing-page)
 
 ## My process
 
