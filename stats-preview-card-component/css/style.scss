@@ -49,6 +49,7 @@ body {
     line-height: 2rem;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
+
     span {
       color: $soft-accent-color;
     }
@@ -60,11 +61,13 @@ body {
   padding-left: 1.969rem;
   padding-right: 1.969rem;
   line-height: 1.563rem;
+
   ul {
     list-style-type: none;
     margin-top: 2.5rem;
     margin-bottom: 2rem;
   }
+
   li {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -72,6 +75,7 @@ body {
     font-size: 0.75rem;
     line-height: 1.563rem;
     letter-spacing: 1px;
+
     span {
       display: block;
       font-weight: 700;
@@ -116,6 +120,7 @@ body {
     height: 446px;
     text-align: left;
   }
+
   ul {
     display: flex;
     justify-content: space-between;
@@ -143,9 +148,11 @@ body {
   color: white;
   font-family: Inter, sans-serif;
   padding: 2rem;
+
   a {
     color: steelblue;
   }
+
   p {
     padding-bottom: 8px;
   }
