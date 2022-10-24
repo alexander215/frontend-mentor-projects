@@ -17,9 +17,36 @@ body {
 }
 
 .header-section {
-  min-height: 30rem;
+  min-height: 28rem;
   background-image: url("../images/bg-pattern.svg");
   background-position: left;
   background-repeat: no-repeat;
+  margin: 0;
+}
+
+.header-section_content {
+  text-align: center;
+  max-width: 20.375rem;
+  margin: 0 auto;
+  padding: 5.5rem 0;
+  background-image: url("../images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-section_content_headline {
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.708rem;
+  color: #293356;
+}
+
+.header-section_content_subheadline {
+  margin: 0 auto;
+  max-width: 60%;
+  font-weight: 600;
+  font-size: 0.813rem;
+  line-height: 1.438rem;
+  color: #858fad;
 }
 /*# sourceMappingURL=style.css.map */
