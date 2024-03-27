@@ -43,7 +43,8 @@ body {
 
 .header-section_content {
   text-align: center;
-  max-width: 20.375rem;
+  max-width: 25rem;
+  width: 25rem;
   margin: 0 auto;
   padding: 5.5rem 0;
   background-image: url('../images/pattern-circles.svg');
@@ -53,16 +54,53 @@ body {
 
 .header-section_content_headline {
   font-weight: 800;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   line-height: 1.708rem;
   color: $dark-desaturated-blue; 
 }
 
 .header-section_content_subheadline {
   margin: 0 auto;
-  max-width: 60%;
+  // max-width: 60%;
   font-weight: 600;
   font-size: 0.813rem;
   line-height: 1.438rem;
   color: $grayish-blue-text;
+}
+
+.slider-section {
+  max-width: 33.75rem;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: -200px;
+  padding: 40px 40px;
+}
+
+.slider-section-line-1 {
+  display: flex;
+}
+
+.slider-section-line-1_pageviews {
+  color: $grayish-blue-text;
+  font-weight: 800;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.slider-section-line-1_pageviews_price {
+
+}
+
+.slider-section-line-2 {
+
+}
+
+.slider-section-line-3 {
+
+}
+
+.slider-section-line-4 {
+
 }
